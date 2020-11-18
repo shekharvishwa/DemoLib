@@ -17,6 +17,7 @@
 		D3A03ADE2564CBE60030F9C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A03ADD2564CBE60030F9C4 /* Assets.xcassets */; };
 		D3A03AE12564CBE60030F9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A03ADF2564CBE60030F9C4 /* LaunchScreen.storyboard */; };
 		D3A03AE72564CEF50030F9C4 /* DemoLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A03AE62564CEF50030F9C4 /* DemoLib.swift */; };
+		D3A03AE925650A940030F9C4 /* DemoLib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D3A03AE825650A940030F9C4 /* DemoLib.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D3A03AE02564CBE60030F9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3A03AE22564CBE60030F9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3A03AE62564CEF50030F9C4 /* DemoLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLib.swift; sourceTree = "<group>"; };
+		D3A03AE825650A940030F9C4 /* DemoLib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DemoLib.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		D3A03AAA2564CB4B0030F9C4 = {
 			isa = PBXGroup;
 			children = (
+				D3A03AE825650A940030F9C4 /* DemoLib.podspec */,
 				D3A03AB62564CB4B0030F9C4 /* DemoLib */,
 				D3A03AC12564CB4B0030F9C4 /* DemoLibTests */,
 				D3A03AD32564CBE20030F9C4 /* DemoLibExample */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A03AE925650A940030F9C4 /* DemoLib.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -453,6 +457,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DemoLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,6 +488,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DemoLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,6 +557,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DemoLibExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -570,6 +577,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DemoLibExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
